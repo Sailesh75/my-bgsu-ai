@@ -159,11 +159,11 @@ const Index = () => {
             {messages.length === 0 ? (
               <div className="flex flex-col items-center justify-center h-full text-center">
                 <h1 className="text-4xl font-bold mb-4 text-foreground">
-                  Welcome to Academic AI
+                  Welcome to The Falcons AI
                 </h1>
                 <p className="text-muted-foreground text-lg max-w-2xl">
-                  Your intelligent academic assistant powered by AI. Ask questions about your courses,
-                  assignments, or get study recommendations.
+                  Your intelligent assistant for Bowling Green State University. Ask questions about BGSU courses,
+                  campus resources, academic programs, and get real-time information from BGSU websites.
                 </p>
               </div>
             ) : (
@@ -190,7 +190,7 @@ const Index = () => {
                     handleSend();
                   }
                 }}
-                placeholder="Ask anything about your academics..."
+                placeholder="Ask anything about BGSU..."
                 className="resize-none"
                 rows={1}
               />
