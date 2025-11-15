@@ -57,6 +57,11 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        "academic-blue": "hsl(var(--academic-blue))",
+        "academic-teal": "hsl(var(--academic-teal))",
+        "academic-navy": "hsl(var(--academic-navy))",
+        "chat-user-bg": "hsl(var(--chat-user-bg))",
+        "chat-assistant-bg": "hsl(var(--chat-assistant-bg))",
       },
       borderRadius: {
         lg: "var(--radius)",
